@@ -5,7 +5,9 @@ let
     ## Tools
     air
     biome
+    go-swag
     helix
+    neofetch
     tailwindcss
     templ
 
@@ -111,35 +113,43 @@ in
       ghc
       gforth
       io
+      
       ## janet
       janet
       jpm
       ##
+      
       ## Kotlin
       kotlin
       kotlin-language-server
       ##
+      
       ## lua
       lua
       luarocks
       ##
+      
       mercury
+      
       ## Ocaml
       ocaml
       opam
       ##
+      
       perl
+      
       ## python
       python311
       python311Packages.pip
       python311Packages.ruff-lsp
       python311Packages.python-lsp-server
       ##
+      
       racket
       rakudo
       rustup
-    
       
+           
       # Runtimes
       nodejs_21
       wasmtime
@@ -191,6 +201,6 @@ home.sessionVariables = {
       };
     };
   };
-    # Let Home Manager install and manage itself.
+     # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }

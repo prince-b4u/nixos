@@ -1,5 +1,6 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
+    neofetch
 #Fish Settings
 set fish_greeting 
 
@@ -7,6 +8,7 @@ set fish_greeting
 set -g -x PATH "$PATH:/lib"
 set -g -x PATH "$PATH:$HOME/go/bin"
 set -g -x PATH "$PATH:$HOME/.cargo/bin"
+
 #Zoxide
 zoxide init fish | source
 

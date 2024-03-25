@@ -29,13 +29,14 @@
  # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  virtualisation.containers.enable = true;
 
 #Custom programs config
- programs.fish ={
+programs.fish = {
   enable = true;
 };
 
-programs.java ={
+programs.java = {
   enable = true;
 };
 
