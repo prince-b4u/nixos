@@ -35,16 +35,17 @@ let
 
 
     ## LSP
+    dockerfile-language-server-nodejs
+    lua-language-server
     nimlsp
     nil
     nixpkgs-fmt
-    vscode-langservers-extracted
-    typescript
     nodePackages.typescript-language-server
-    lua-language-server
     marksman
-    yaml-language-server
+    typescript
     taplo
+    vscode-langservers-extracted
+    yaml-language-server
     zls
 
     ##Game engines
