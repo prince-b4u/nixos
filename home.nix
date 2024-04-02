@@ -42,6 +42,7 @@ let
     nixpkgs-fmt
     nodePackages.typescript-language-server
     marksman
+    tailwindcss-language-server
     typescript
     taplo
     vscode-langservers-extracted
@@ -138,6 +139,7 @@ in
       ##
       
       perl
+      protobuf_26
       
       ## python
       python311

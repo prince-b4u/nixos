@@ -52,7 +52,7 @@ auto-format = true
 comment-token = "//"
 language-servers = [ "gleam-lsp" ]
 indent = { tab-width = 2, unit = "  " }
-shebangs = ["uiua"]
+shebangs = ["gleam"]
 
 [language-server.gleam-lsp]
 command = "gleam"
@@ -62,6 +62,23 @@ args = ["lsp"]
 name = "gleam"
 source.git = "https://github.com/gleam-lang/tree-sitter-gleam"
 source.rev = "2012f294baacf30e7a62414754021284377366c6"
+
+
+[[language]]
+name = "tailwind"
+scope = "source.css"
+injection-regex = "(postcss|css|html|templ)"
+file-types = ["css"]
+roots = ["tailwind.config.js","tailwind.config.cjs"]
+comment-token = "/*"
+language-servers = [ "tailwind-lsp" ]
+indent = { tab-width = 2, unit = "  " }
+
+[language-server.tailwind-lsp]
+command = "tailwindcss-language-server"
+args = []
+
+
 
 [language.auto-pairs]
 '⟨' = '⟩'
