@@ -22,13 +22,16 @@ let
     erlang_26
     factor-lang
     gleam
+    
     ##go
     go_1_22
     gopls
     ##
+    
     hare
     jelly
     nim-unwrapped-2
+    protobuf_25
     uiua
     unison-ucm
     zig
@@ -139,7 +142,6 @@ in
       ##
       
       perl
-      protobuf_26
       
       ## python
       python311
