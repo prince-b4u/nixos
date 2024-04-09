@@ -80,6 +80,20 @@ args = []
 
 
 
+[[language]]
+name = "emmet"
+scope = "source.css"
+injection-regex = "(html|templ)"
+file-types = ["html"]
+roots = []
+comment-token = "//"
+language-servers = [ "emmet-lsp" ]
+indent = { tab-width = 2, unit = "  " }
+
+[language-server.emmet-lsp]
+command = "emmet-ls"
+args = []
+
 [language.auto-pairs]
 '⟨' = '⟩'
 '(' = ')'

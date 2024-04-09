@@ -39,6 +39,7 @@ let
 
     ## LSP
     dockerfile-language-server-nodejs
+    emmet-ls
     lua-language-server
     nimlsp
     nil
