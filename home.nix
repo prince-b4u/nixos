@@ -42,6 +42,7 @@ let
     lua-language-server
     nimlsp
     nil
+    nimlangserver
     nixpkgs-fmt
     nodePackages.typescript-language-server
     marksman
