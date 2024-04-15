@@ -90,6 +90,7 @@ formatter = { command = "nixpkgs-fmt" }
 name = "templ"
 language-servers = ["tailwindcss-ls","templ-lsp","emmet-lsp"]
 comment-token = "//"
+formatter = { command = "goimports" }
 [language-server.templ-lsp]
 command = "templ"
 args = ["lsp"]
