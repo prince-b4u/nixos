@@ -88,7 +88,8 @@ formatter = { command = "nixpkgs-fmt" }
 
 [[language]]
 name = "templ"
-language-servers = ["tailwindcss-ls","templ-lsp","emmet-lsp"] 
+language-servers = ["tailwindcss-ls","templ-lsp","emmet-lsp"]
+comment-token = "//"
 [language-server.templ-lsp]
 command = "templ"
 args = ["lsp"]
