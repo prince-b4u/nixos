@@ -5,6 +5,7 @@ let
     ## Tools
     air
     biome
+    hugo
     go-swag
     helix
     neofetch
