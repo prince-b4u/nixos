@@ -6,8 +6,9 @@ let
     air
     biome
     hugo
-    go-swag
     helix
+    lsog
+    go-swag
     neofetch
     tailwindcss
     templ
