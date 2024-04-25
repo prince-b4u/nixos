@@ -7,7 +7,7 @@ let
     biome
     hugo
     helix
-    lsog
+    lsof
     go-swag
     neofetch
     tailwindcss
