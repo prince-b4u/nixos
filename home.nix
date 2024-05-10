@@ -9,7 +9,6 @@ let
     helix
     lsof
     go-swag
-    neofetch
     tailwindcss
     templ
 
