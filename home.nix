@@ -8,6 +8,7 @@ let
     hugo
     helix
     lsof
+    fastfetch
     go-swag
     tailwindcss
     templ
