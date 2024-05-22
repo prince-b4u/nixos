@@ -10,6 +10,7 @@ let
     lsof
     fastfetch
     go-swag
+    protobuf_25
     tailwindcss
     templ
 
@@ -19,7 +20,7 @@ let
     ## Runtimes
     bun
 
-    ## Languages
+    ##LANGUAGES
     cbqn-replxx
     erlang_26
     factor-lang
@@ -33,11 +34,11 @@ let
     hare
     jelly
     nim-unwrapped-2
-    protobuf_25
+    php
     uiua
     unison-ucm
     zig
-
+    ##LANGUAGES
 
     ## LSP
     dockerfile-language-server-nodejs
@@ -54,12 +55,7 @@ let
     taplo
     vscode-langservers-extracted
     yaml-language-server
-    zls
-
-    ##Game engines
-    raylib
-
- 
+    zls 
   ];
 inherit system;
 
