@@ -123,11 +123,6 @@ in
       jpm
       ##
       
-      ## Kotlin
-      kotlin
-      kotlin-language-server
-      ##
-      
       ## lua
       lua
       luarocks
