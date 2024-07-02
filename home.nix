@@ -29,6 +29,7 @@ let
     ##go
     go_1_22
     gopls
+    golangci-lint
     ##
     
     hare
