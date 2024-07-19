@@ -99,6 +99,8 @@ in
       podman
       podman-compose
       podman-desktop
+      skopeo
+      buildah
       ##
       ripgrep
       rsync
