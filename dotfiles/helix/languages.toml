@@ -83,10 +83,6 @@ config = {userLanguages = {rust = "html",".rs" = "html",templ = "html","*.templ"
 '[' = ']'
 
 [[language]]
-name = "nix"
-formatter = { command = "nixpkgs-fmt" }
-
-[[language]]
 name = "templ"
 language-servers = ["tailwindcss-ls","templ-lsp","emmet-lsp"]
 comment-token = "//"
