@@ -30,6 +30,7 @@ let
     go_1_22
     gopls
     golangci-lint
+    gotools
     ##
     
     hare
