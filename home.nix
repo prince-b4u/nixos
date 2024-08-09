@@ -10,6 +10,7 @@ let
     lsof
     fastfetch
     go-swag
+    murex
     protobuf_25
     tailwindcss
     templ
